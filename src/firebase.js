@@ -1,26 +1,14 @@
 import firebase from 'firebase'
 
-//mongodb database
 const firebaseConfig = {
-    apiKey: "AIzaSyDWaxvmenenjzsU32y-C3amMa0TR1AbyK4",
-    authDomain: "maqbool-registration-ctns-new.firebaseapp.com",
-    projectId: "maqbool-registration-ctns-new",
-    storageBucket: "maqbool-registration-ctns-new.appspot.com",
-    messagingSenderId: "767061983430",
-    appId: "1:767061983430:web:bced2eada92bb9b7a397c7",
-    measurementId: "G-523GFYZPMX"
+    apiKey: "AIzaSyBClCU7-nnf8sp5YMxlRHju374Fu5fb2eI",
+    authDomain: "ladies-rajab-registration.firebaseapp.com",
+    projectId: "ladies-rajab-registration",
+    storageBucket: "ladies-rajab-registration.appspot.com",
+    messagingSenderId: "147627459623",
+    appId: "1:147627459623:web:e669ba77671d4a3ebbfa02",
+    measurementId: "G-0215M9DNK5"
 };
-
-//firebase database
-// const firebaseConfig = {
-//     apiKey: "AIzaSyDWtjoIL3RjXi9id0RYwx11J3nZKSWDBDU",
-//     authDomain: "maqbool-jumuah-registration.firebaseapp.com",
-//     projectId: "maqbool-jumuah-registration",
-//     storageBucket: "maqbool-jumuah-registration.appspot.com",
-//     messagingSenderId: "78115862260",
-//     appId: "1:78115862260:web:aee36b7384075e1ec410a1",
-//     measurementId: "G-0LHZYP4YV1"
-// };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)
 const db = firebaseApp.firestore()
